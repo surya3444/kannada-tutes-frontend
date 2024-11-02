@@ -1,0 +1,40 @@
+.home {
+  /*background-color: #f5f5f5;*/
+  padding: 100px 0;
+  text-align: center;
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #8f90a055, #8f90a0 );
+
+
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+    h1 span{
+      color: #8a4baf;
+    }
+
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+  }
+}
